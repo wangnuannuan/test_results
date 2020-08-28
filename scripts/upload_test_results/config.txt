@@ -16,4 +16,4 @@ target_repo = foss-for-synopsys-dwc-arc-processors/test_results
 # Add your Github username
 github_user = wangnuannuan
 # Add your Github token
-github_token = c010c94531b08d984bc34b5b83ed5558274a9207
+github_token = bac20ea585e7c4325a8b627cb344df7c44dad71d
