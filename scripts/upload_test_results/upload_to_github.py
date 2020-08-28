@@ -166,10 +166,11 @@ def add_push_to_github(git_dir_path, origin, branch_name, commit_msg,
                          head=head, base="master")
         logging.info('Pull request created! Go to Github to view the details.')
 
-    except Exception:
+    except Exception as e:
         logging.critical('ERROR: Failed to create Github PR " \
                          "to the target(upstream) repository " \
                          "from your origin repository')
+        print(e)
         origin.git.checkout('master')
         sys.exit(1)
 
