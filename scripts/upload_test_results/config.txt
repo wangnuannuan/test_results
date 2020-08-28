@@ -1,25 +1,19 @@
 [Credentials]
-# Add your name, email, company name
-author_name = Johnny Developer
-author_email = <johnny.developer@company.com>
-company_name = Company
+author_name = Jingru Wang
+author_email = <jingru@synopsys.com>
+company_name = Synopsys
 
 [Git]
-# Value must used by default
-upstream_repo = https://github.com/zephyrproject-rtos/test_results.git
-# Add proper Github address of your forked repo
-origin_repo = https://github.com/johnnydeveloper/test_results.git
-# Add in branch title your company name, or any other name
-branch_git_title = mycompany_
-# Value can be used by default
+upstream_repo = https://github.com/foss-for-synopsys-dwc-arc-processors/test_results.git
+origin_repo = https://github.com/wangnuannuan/test_results.git
+branch_git_title = synopsys_
 remote_name = upstream
-# Value can be used by default
 origin_name = origin
 
 [Github]
 # Value must used by default
-target_repo = zephyrproject-rtos/test_results
+target_repo = foss-for-synopsys-dwc-arc-processors/test_results
 # Add your Github username
-github_user = johnnydeveloper
+github_user = wangnuannuan
 # Add your Github token
-github_token = 1234567890abcdefghijklmnopqrstuvwxyz
+github_token = c010c94531b08d984bc34b5b83ed5558274a9207
